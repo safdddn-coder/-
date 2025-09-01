@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه قهوه</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="main-nav">
+            <a href="#" class="logo">فروشگاه قهوه</a>
+            <ul>
+                <li><a href="#">صفحه اصلی</a></li>
+                <li><a href="#">محصولات</a></li>
+                <li><a href="#">درباره ما</a></li>
+                <li><a href="#">تماس با ما</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>بهترین قهوه را از ما بخواهید</h1>
+            <p>دانه‌های تازه و باکیفیت از بهترین مزارع جهان</p>
+            <a href="#" class="cta-button">مشاهده محصولات</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="products">
+            <h2>محصولات ویژه</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x300?text=Coffee+Beans" alt="دانه قهوه اتیوپی">
+                    <h3>دانه قهوه اتیوپی</h3>
+                    <p>عطر گلی و طعم میوه‌ای</p>
+                    <span>250,000 تومان</span>
+                    <a href="#" class="add-to-cart">افزودن به سبد خرید</a>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x300?text=Ground+Coffee" alt="قهوه آسیاب شده برزیل">
+                    <h3>قهوه آسیاب شده برزیل</h3>
+                    <p>طعم کاراملی و شکلاتی</p>
+                    <span>220,000 تومان</span>
+                    <a href="#" class="add-to-cart">افزودن به سبد خرید</a>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x300?text=Coffee+Maker" alt="موکاپات">
+                    <h3>موکاپات</h3>
+                    <p>ابزار تهیه قهوه ایتالیایی</p>
+                    <span>180,000 تومان</span>
+                    <a href="#" class="add-to-cart">افزودن به سبد خرید</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 فروشگاه قهوه. تمامی حقوق محفوظ است.</p>
+    </footer>
+
+</body>
+</html>
